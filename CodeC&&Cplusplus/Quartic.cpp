@@ -39,6 +39,6 @@ std::vector<double> quartic(double a, double b, double c, double d, double e) {
 }
 
 int main(){
-  std::vector<double> root = quartic(1,2,6,4);
+  std::vector<double> root = quartic(1,2,6,4,5);
   std::cout << "Roots of Equation: " << root.at(0) << std::endl;
 }
